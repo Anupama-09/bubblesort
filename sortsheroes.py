@@ -1,4 +1,5 @@
-def bubble_sort():
+#--------SORTING SUPERHEROES:bynamelength----------------------
+def sortheroes():
     n=int(input("Enter how many heros: "))
     names=[]
     temp=0
@@ -14,4 +15,4 @@ def bubble_sort():
                 names[j]=temp
     print("Descending order: ",names)
     
-bubble_sort()
+sortheroes()
